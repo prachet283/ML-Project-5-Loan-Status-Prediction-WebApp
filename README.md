@@ -27,5 +27,8 @@ The model's performance is evaluated using metrics such as accuracy.
 Train Data Accuracy : 77.31%
 Test Data Accuracy : 75%
 
+# Deployment
+The application is deployed using Streamlit. You can access it here = https://whwx7rd4djvybbssmelb6b.streamlit.app/
+
 # Contributing
 Contributions are welcome! If you have any suggestions or improvements, please create a pull request or open an issue.
