@@ -11,29 +11,29 @@ import streamlit as st
 import pandas as pd
 
 #loading. the saved model
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-5-Loan Status Prediction/Updated/columns.pkl", 'rb') as f:
+with open("Updated/columns.pkl", 'rb') as f:
     all_columns = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-5-Loan Status Prediction/Updated/cat_columns.pkl", 'rb') as f:
+with open("Updated/cat_columns.pkl", 'rb') as f:
     cat_columns = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-5-Loan Status Prediction/Updated/encoder.pkl", 'rb') as f:
+with open("Updated/encoder.pkl", 'rb') as f:
     encoder = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-5-Loan Status Prediction/Updated/encoded_columns.pkl", 'rb') as f:
+with open("Updated/encoded_columns.pkl", 'rb') as f:
     encoded_columns = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-5-Loan Status Prediction/Updated/training_columns.pkl", 'rb') as f:
+with open("Updated/training_columns.pkl", 'rb') as f:
     training_columns = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-5-Loan Status Prediction/Updated/scaler.pkl", 'rb') as f:
+with open("Updated/scaler.pkl", 'rb') as f:
     scaler = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-5-Loan Status Prediction/Updated/best_features_xgb.json", 'r') as file:
+with open("Updated/best_features_xgb.json", 'r') as file:
     best_features_xgb = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-5-Loan Status Prediction/Updated/best_features_rfc.json", 'r') as file:
+with open("Updated/best_features_rfc.json", 'r') as file:
     best_features_rfc = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-5-Loan Status Prediction/Updated/best_features_svc.json", 'r') as file:
+with open("Updated/best_features_svc.json", 'r') as file:
     best_features_svc = json.load(file)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-5-Loan Status Prediction/Updated/loan_status_trained_xgb_model.sav", 'rb') as f:
+with open("Updated/loan_status_trained_xgb_model.sav", 'rb') as f:
     loaded_model_xgb = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-5-Loan Status Prediction/Updated/loan_status_trained_rfc_model.sav", 'rb') as f:
+with open("Updated/loan_status_trained_rfc_model.sav", 'rb') as f:
     loaded_model_rfc = pickle.load(f)
-with open("C:/Users/prachet/OneDrive - Vidyalankar Institute of Technology/Desktop/Coding/Machine Learning/ML-Project-5-Loan Status Prediction/Updated/loan_status_trained_svc_model.sav", 'rb') as f:
+with open("Updated/loan_status_trained_svc_model.sav", 'rb') as f:
     loaded_model_svc = pickle.load(f)
 
 
